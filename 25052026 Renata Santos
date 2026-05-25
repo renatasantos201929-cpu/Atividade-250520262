@@ -1,0 +1,31 @@
+<?php
+for ($i=1; $i <=5; $i++){
+    print "Arquivo $i: <input type='text' name='arquivo$i'> <br>";
+}
+?>
+<br>
+
+<?php
+$Equipamentos = ['Martelo', 'Alicate', 'Chave', 'Furadeira', 'Bucha','Prego', 'Licha','Broca'];
+    foreach ($Equipamentos as $i){
+        print "Equipamentos: $i <br>";
+    
+}
+?>
+<br>
+
+<?php
+$Alunos = [
+'Joao' => 8,
+'Maria'=> 7,
+'Marcos'=>5,
+'Felipe'=>3,
+'Renata'=>10,
+'Matheus'=>10,
+'Luisa'=>9,
+ ];
+    foreach ($Alunos as $name => $nota){
+        print "nome:$name, Nota: $nota <br>";
+    
+}
+?>
